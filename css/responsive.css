@@ -1,0 +1,127 @@
+@media (max-width: 1000px) {
+  .header .logo img{width:100px;}
+  .btn-menu{display:inline-block!important;color: black!important;position: absolute;top: 30%;right: 7%;border: 1px solid black;border-radius: 0px; }
+  .header-sticky .btn-menu{border-radius: 0px;}
+  .header .header-right .nav{padding: 10px 0;}
+  .header-two .header-right .nav{padding-top: 30px;}
+  .header .header-logo{float: left;}
+  .nav{display:none;}
+  .nav ul{margin-bottom:8px;background-color: #fff;width:100%;line-height: 2!important;padding-left: 0px}
+  .nav ul li{width:100%;display:block;text-align: center;background-color: #fbfbfb;margin: 2px 0px;}
+  .nav ul li a{color: #222!important;padding:7px 15px; display:block;font-weight:600; font-size:16px}
+  .header-sticky .nav .nav-inner ul li a{font-size: 16px!important; }
+  .header .nav .nav-inner .hvr-underline-from-left:before{bottom: 0!important;}
+  .header-nav ul li:hover{background:rgba(0,0,0,0.5); text-decoration:none;}
+ 
+}
+/*@media (min-width: 1000px) {
+   
+}
+*/
+
+@media screen and (max-width: 700px) {
+ .hero #owl-carousel-hero .page-banner-image{padding-bottom: 100%;}
+ .header .header-right .nav .nav-inner ul li ,.header-sticky .header-right .nav .nav-inner ul li {margin-left: 0px;}
+ .header .header-right .nav .nav-inner ul {display: block!important;}
+ .header-sticky .header-right .nav .nav-inner ul{display: block!important;}
+ .about .page-image .page-banner-background .page-banner-image{position: unset;height: 500px;}
+}
+
+@media (max-width: 700px) {
+ .hero #owl-carousel-hero .owl-item{height: 700px;}
+.hero #owl-carousel-hero .owl-dots{display: none;}
+.about .page-image .page-banner-background .page-banner-image{position: unset;height: 500px;}
+.portfolio .container-fluid .post {width: 100%;}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    /* Styles */
+.hero #owl-carousel-hero .owl-item{height: 700px;}
+.hero #owl-carousel-hero .owl-dots{display: none;}
+.online-packages .packages .col-md-4{margin-bottom: 40px;}
+.about .page-image .page-banner-background .page-banner-image{position: unset;height: 500px;}
+.portfolio .container-fluid .post {width: 100%;}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+    /* Styles */
+.hero #owl-carousel-hero .owl-item{height: 700px;}
+.hero #owl-carousel-hero .owl-dots{display: none;}
+.online-packages .packages .col-md-4{margin-bottom: 40px;}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+    /* Styles */
+.hero #owl-carousel-hero .owl-item{height: 700px;}
+.hero #owl-carousel-hero .owl-dots{display: none;}
+.online-packages .packages .col-md-4{margin-bottom: 40px;}
+.about .page-image .page-banner-background .page-banner-image{position: unset;height: 500px;}
+.portfolio .container-fluid .post {width: 100%;}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    /* Styles */
+
+.hero #owl-carousel-hero .owl-item{height: 700px;}
+.portfolio .container-fluid .post {width: 50%;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    /* Styles */
+
+.hero #owl-carousel-hero .owl-item{height: 650px;}
+.portfolio .container-fluid .post {width: 50%;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    /* Styles */
+.hero #owl-carousel-hero .owl-item{height: 650px;}
+.portfolio .container-fluid .post {width: 50%;}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    /* Styles */
+.hero #owl-carousel-hero .owl-item{height: 650px;}
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    /* Styles */
+/*.hero #owl-carousel-hero .owl-item{} .page-banner-image{height:1200px;}*/
+.hero #owl-carousel-hero .owl-item{height: 650px;}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+
+    .hero #owl-carousel-hero .owl-item{height: 700px;}
+    .online-packages .packages .col-md-4{margin-bottom: 40px;}
+    .about .page-image .page-banner-background .page-banner-image{position: unset;height: 500px;}
+}
